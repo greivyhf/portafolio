@@ -1,0 +1,57 @@
+.pasatiempos__titulo{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+.pasatiempos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.pasatiempos__item{
+    background-color: #FFF;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.pasatiempos__contenedor{
+    margin-left: 1rem; 
+    align-items: end;
+}
+.pasatiempos__imagen{
+    width: 40px;  
+}
+.pasatiempos__texto{
+    margin: 1rem 0;
+}
+@media screen and (min-width:0) {
+    .pasatiempos__item{
+        width: calc((100% - 5%)/2);
+    }
+}
+@media screen and (min-width:768px) {
+    .pasatiempos__item{
+        width: calc((100% - 5%)/3);
+    }
+}
+@media screen and (min-width:1440px) {
+    .pasatiempos{
+        margin-top: 3.50rem;
+        margin-bottom: 5.5rem;
+    }
+    .pasatiempos__titulo{
+        margin: 0;
+    }
+    .pasatiempos__lista{
+        margin: 2rem 0;
+    }
+    .pasatiempos__item{
+        width: 176px;
+        height: 174px;
+        margin: 1rem;
+    }
+
+}

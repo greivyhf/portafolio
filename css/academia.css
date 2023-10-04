@@ -1,0 +1,111 @@
+.academica{
+    background-color: #EAF2FD;
+    padding: 1rem 0;
+}
+.academica__titulo{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+.academica__lista{
+    display: flex;
+    gap: 1rem;
+    margin: 0 2rem;
+}
+.academica__item{
+    width: 100%;   
+   
+}
+.academica__figura{
+    display: flex;
+    flex-direction: column;
+}
+.academica__imagen-contenedor{
+    background-color: #FFFFFF;
+    height: 118px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.academica__imagen{
+    width: 100px;
+}
+
+.academica__intitucion{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: .50rem 0;
+}
+.academica__descripcion{
+    font-size: .875rem;
+    font-weight: 500;   
+}
+@media screen and (min-width:0) {
+    .academica__lista{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
+@media screen and (min-width:768px) {
+    .academica{
+        background-color: #EAF2FD;
+        padding: 1rem 0;
+    }
+    .academica__lista{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .academica__item{ 
+        width: calc((100% - 5%)/3);
+        align-self: stretch;
+
+    }
+    .academica__figura{
+        display: flex;
+        flex-direction: column;
+        align-items:stretch;
+        width: 100%;
+    }
+    .contenedor-doble{
+        margin: 0 2rem ;
+    }
+}
+@media screen and (min-width:1440px) {
+    .academica{
+        background-color: #EAF2FD;
+        padding: 5.125rem 3rem;
+    }
+    .academica__titulo{
+          margin: 0;
+          margin-bottom: 2rem;
+    }
+    .academica__lista{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .academica__item{ 
+        margin: 2rem 0;
+        width: 368px;
+    }
+    .academica__imagen-contenedor{
+        background-color: #FFFFFF;
+        height: 286px;
+    }
+    .academica__figura{
+        display: flex;
+        flex-direction: column;
+        align-items:stretch;
+        width: 100%;
+    }
+    .academica__imagen{
+        width: 200px;
+    }
+}

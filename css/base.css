@@ -1,0 +1,12 @@
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    background-color: #F5F5F5;
+}
+.contenedor{
+    margin: 0 5%;
+}
+.contenedor-doble{
+    margin: 0 10%;
+}

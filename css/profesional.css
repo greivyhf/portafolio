@@ -1,0 +1,18 @@
+.profesional{
+    display: flex;
+    flex-direction: column;
+}
+.profesional__titulo{
+    align-items: center;
+    padding: 20px;
+}
+.contenedor__pro{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profesional__contenedor{
+    width: 100%;
+}
+.profesional__imagen{
+    width: 30%;
+}

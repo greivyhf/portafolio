@@ -1,0 +1,62 @@
+.acerca{
+    display: flex;
+    color: #464646;
+}
+.acerca__imagen{
+    width: 100px;
+    display: flex;
+    align-self: flex-start;
+    margin: 2rem;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px #00000030;
+}
+.acerca__titulo{
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 1.5rem;
+}
+.acerca__resumen{
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 16px;
+    line-height: 1.1rem;
+}
+.acerca__redes{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+@media screen and (min-width:0) {
+    .acerca{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:768px) {
+    .acerca{
+        flex-direction: row-reverse;
+    }
+    .acerca__imagen{
+        width: 150px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .acerca{
+        flex-direction: row-reverse;   
+        align-items: center;
+    }
+    .acerca__imagen{
+        width: 300px;
+        display: flex;
+        align-self: flex-start;
+        align-items: flex-start;
+    }
+    .acerca__titulo{
+        font-size: 3.25rem;
+        line-height: 3rem;
+    }
+}

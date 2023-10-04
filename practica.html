@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:  0;
+            padding: 0;
+            border: none;
+        }
+        .container{
+            background-color: brown;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+        .flex__contenedor{
+            background-color: lightblue;
+            margin: 0;
+           
+            display: flex;
+            height: 500px;
+            width: 90%;
+            gap: 1rem;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+        .flex__item{
+            background-color: blueviolet;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 1rem;
+            gap: 10px;
+        }
+        .imagen{
+            width: 50px;
+        }
+        .link{
+            width: 100%;
+            align-self: flex-end;
+            background-color: aliceblue;
+
+        }
+
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul class="flex__contenedor">
+            <li class="flex__item">
+                <h1 class="titulo">Titulo #1</h1>
+                <img src="./img/CSS.png" alt="" class="imagen">
+                <a href="" class="link"> link 1</a>
+            </li>
+            <li class="flex__item">
+                <h1 class="titulo">Titulo #2</h1>
+                <img src="./img/cisco.png" alt="" class="imagen">
+                <a href="" class="link">link 2</a>
+            </li>
+            <li class="flex__item">
+                <h1 class="titulo">Titulo #3</h1>
+                <img src="./img/JS.png" alt="" class="imagen">
+                <a href="" class="link">link 3</a>
+            </li>
+            <li class="flex__item">
+                <h1 class="titulo">Titulo #4</h1>
+                <img src="./img/html5.png" alt="" class="imagen">
+                <a href="" class="link">link 4</a>
+            </li>
+            <li class="flex__item">
+                <h1 class="titulo">Titulo #5</h1>
+                <img src="./img/html5.png" alt="" class="imagen">
+                <a href="" class="link">link 4</a>
+            </li>
+            <li class="flex__item">
+                <h1 class="titulo">Titulo #6</h1>
+                <img src="./img/html5.png" alt="" class="imagen">
+                <a href="" class="link">link 4</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
